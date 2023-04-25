@@ -1,3 +1,60 @@
+
+@import "cores";
+@import "reset";
+
 body {
-    background-color: brown;
+    background-color: $verde;
+    
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__menu {
+        a {
+            border-radius: 5px;
+            padding: 5px;
+            background-color: $roxo;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.form-cadastro {
+    background-color: $cinza-claro;
+    border: $cinza-escuro solid 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 10px 10px 10px 10px;
+
+    &__titulo {
+        text-align: center;
+        margin: 0px;
+    }
+
+    &__entrada {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    &__saida {
+/*         display: flex;
+        flex-direction: column;
+        gap: 2px; */
+
+    }
 }
