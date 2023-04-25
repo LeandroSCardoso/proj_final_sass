@@ -1,4 +1,4 @@
-require("./styles/style.scss")
+import "./styles/style.scss"
 
 import { ola, ola_b } from "./js/livros"
 
